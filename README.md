@@ -5,6 +5,17 @@
 # <h1 align="center">Login</h1>
 
 ```
+POST /login FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+	"email": "pablo@mail.com",
+	"password": "123456"
+}
+```
+
+```
 POST /login FORMATO DA RESPOSTA - STATUS 200
 ```
 
@@ -21,6 +32,16 @@ POST /login FORMATO DA RESPOSTA - STATUS 200
 ```
 
 # <h1 align="center">Register</h1>
+
+```
+POST /login FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+
+}
+```
 
 ```
 POST /register FORMATO DA RESPOSTA - STATUS 200

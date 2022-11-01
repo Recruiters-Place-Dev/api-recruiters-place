@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "pablo@mail.com",
+      "password": "$2a$10$NLWN96F4O0gQ/80BAz0j0uJxjTG8oE2C5WaFw51NMMrSWSZ45IX2m",
+      "name": "Pablo",
+      "age": "31",
+      "id": 1
+    },
+    {
+      "email": "pablo2@mail.com",
+      "password": "$2a$10$DTyyNXOCyhYCrzhwT6FkYeQNRGQqIlC308viCKbj7hACFu/Yf//0y",
+      "name": "Pablo",
+      "age": "31",
+      "id": 2
+    },
+    {
+      "email": "pablo3@mail.com",
+      "password": "$2a$10$m78xwTXufrGUSF8tFmVO3uqe4ymnd2MVDURg3iZW3iTQ0uB7dIVIW",
+      "name": "Pablo",
+      "escolaridade": "Ensino Superior",
+      "Vaga": "Front-end",
+      "id": 3
+    },
+    {
+      "email": "pablo4@mail.com",
+      "password": "$2a$10$rG7D/CBrm27xaTosFZsn7ewOe8ZUy1fbxfx3Q7zMBFOc5ev9Ux/4q",
+      "name": "Pablo",
+      "escolaridade": "Ensino Superior",
+      "Vaga": "Front-end",
+      "id": 4
+    }
+  ]
+}

@@ -48,7 +48,7 @@ Para Desenvolvedor:
 	"password": "123456789",
 	"isRecruiter": true,
 	"city": "SP",
-	"escolaridade": "Superior",
+	"schooling": "Superior",
 	"cargo": "Front-end",
 	"isWork": true,
 	"linkedin": "http://linkedin.com",
@@ -99,7 +99,7 @@ Para Desenvolvedor:
 		"name": "Pablo",
 		"isRecruiter": true,
 		"city": "SP",
-		"escolaridade": "Superior",
+		"schooling": "Superior",
 		"cargo": "Front-end",
 		"isWork": true,
 		"linkedin": "http://linkedin.com",
@@ -161,7 +161,7 @@ GET /users FORMATO DA RESPOSTA - STATUS 200
 		"email": "pablo3@mail.com",
 		"password": "$2a$10$m78xwTXufrGUSF8tFmVO3uqe4ymnd2MVDURg3iZW3iTQ0uB7dIVIW",
 		"name": "Pablo",
-		"escolaridade": "Ensino Superior",
+		"schooling": "Ensino Superior",
 		"Vaga": "Front-end",
 		"id": 3
 	},
@@ -169,7 +169,7 @@ GET /users FORMATO DA RESPOSTA - STATUS 200
 		"email": "pablo4@mail.com",
 		"password": "$2a$10$rG7D/CBrm27xaTosFZsn7ewOe8ZUy1fbxfx3Q7zMBFOc5ev9Ux/4q",
 		"name": "Pablo",
-		"escolaridade": "Ensino Superior",
+		"schooling": "Ensino Superior",
 		"Vaga": "Front-end",
 		"id": 4
 	}

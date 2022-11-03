@@ -36,9 +36,11 @@ POST /login FORMATO DA RESPOSTA - STATUS 200
 ```
 POST /login FORMATO DA REQUISIÇÃO - STATUS 200
 ```
+
 ```
 Para Desenvolvedor:
 ```
+
 ```
 {
 	"name": "Pablo",
@@ -65,24 +67,29 @@ Para Desenvolvedor:
 	}
 }
 ```
+
 ```
 Para Recrutador:
+```
+
 ```
 {
 	"name": "Pablo",
 	"email": "pablo5@mail.com",
 	"password": "123456789",
 	"isRecruiter": true,
-	
+
 }
 ```
-	
+
 ```
 POST /register FORMATO DA RESPOSTA - STATUS 200
 ```
+
 ```
 Para Desenvolvedor:
 ```
+
 ```
 {
 	{
@@ -169,7 +176,7 @@ GET /users FORMATO DA RESPOSTA - STATUS 200
 ]
 ```
 
-# <h1 align="center">Mostrar todos usuários</h1>
+# <h1 align="center">Mostrar usuário logado</h1>
 
 ```
 GET /users/id FORMATO DA RESPOSTA - STATUS 200
@@ -184,8 +191,8 @@ GET /users/id FORMATO DA RESPOSTA - STATUS 200
 	"id": 2
 }
 ```
-# <h1 align="center">Editar usuário</h1>
 
+# <h1 align="center">Editar usuário logado</h1>
 
 ```
 PATCH /users/id FORMATO DA REQUISIÇÃO - STATUS 200
@@ -201,6 +208,7 @@ PATCH /users/id FORMATO DA REQUISIÇÃO - STATUS 200
 	"city": "Rio de Janeiro"
 }
 ```
+
 ```
 PATCH /users/id FORMATO DA RESPOSTA - STATUS 200
 ```
@@ -214,3 +222,4 @@ PATCH /users/id FORMATO DA RESPOSTA - STATUS 200
 	"id": 2
 	"city": "Rio de Janeiro"
 }
+```

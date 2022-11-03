@@ -29,6 +29,46 @@
       "escolaridade": "Ensino Superior",
       "Vaga": "Front-end",
       "id": 4
+    },
+    {
+      "email": "pablo5@mail.com",
+      "password": "$2a$10$tT0xx/Dan6alaECTsAie9O0a7xDdd6iwOOZnegUuY7LWxtWxnGa1i",
+      "name": "Pablo",
+      "isRecruiter": true,
+      "id": 5,
+      "city": "RJ e noix"
+    },
+    {
+      "email": "pablo51@mail.com",
+      "password": "$2a$10$OjqXgoDihWNvI2ueD4tO6OpWiNkHJZGwTz4MDauXOq79PqBKnuY0i",
+      "name": "Pablo",
+      "isRecruiter": true,
+      "id": 6
+    },
+    {
+      "email": "pablo56@mail.com",
+      "password": "$2a$10$j67jITJ5R.xhRKKXwM83Ju/3IMCF2PwhHBKbCkBGdb0q5DyoZ96em",
+      "name": "Pablo",
+      "isRecruiter": true,
+      "city": "SP",
+      "escolaridade": "Superior",
+      "cargo": "Front-end",
+      "isWork": true,
+      "linkedin": "http://linkedin.com",
+      "github": "http://linkedin.com",
+      "portfolio": "http://linkedin.com",
+      "tech": {
+        "html": true,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
+        "angular": true,
+        "vuejs": true,
+        "php": true,
+        "c": true
+      },
+      "id": 7
     }
   ]
 }

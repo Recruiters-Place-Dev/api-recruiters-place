@@ -36,27 +36,101 @@ POST /login FORMATO DA RESPOSTA - STATUS 200
 ```
 POST /login FORMATO DA REQUISIÇÃO - STATUS 200
 ```
-
+```
+Para Desenvolvedor:
+```
 ```
 {
-
+	"name": "Pablo",
+	"email": "pablo5@mail.com",
+	"password": "123456789",
+	"isRecruiter": true,
+	"city": "SP",
+	"escolaridade": "Superior",
+	"cargo": "Front-end",
+	"isWork": true,
+	"linkedin": "http://linkedin.com",
+	"github": "http://linkedin.com",
+	"portfolio": "http://linkedin.com",
+	"tech":{
+		"html": true,
+		"css": true,
+		"js": true,
+		"react": true,
+		"ts": true,
+		"angular": true,
+		"vuejs": true,
+		"php": true,
+		"c": true
+	}
+}
+```
+```
+Para Recrutador:
+```
+{
+	"name": "Pablo",
+	"email": "pablo5@mail.com",
+	"password": "123456789",
+	"isRecruiter": true,
+	
+}
+```
+	
+```
+POST /register FORMATO DA RESPOSTA - STATUS 200
+```
+```
+Para Desenvolvedor:
+```
+```
+{
+	{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhYmxvNTZAbWFpbC5jb20iLCJpYXQiOjE2Njc0ODIxNDQsImV4cCI6MTY2NzQ4NTc0NCwic3ViIjoiNyJ9.oQQ5Em8Z-0DptiXBl0A3kjcxlk7bpH6Ew_vu5jedYEY",
+	"user": {
+		"email": "pablo56@mail.com",
+		"name": "Pablo",
+		"isRecruiter": true,
+		"city": "SP",
+		"escolaridade": "Superior",
+		"cargo": "Front-end",
+		"isWork": true,
+		"linkedin": "http://linkedin.com",
+		"github": "http://linkedin.com",
+		"portfolio": "http://linkedin.com",
+		"tech": {
+			"html": true,
+			"css": true,
+			"js": true,
+			"react": true,
+			"ts": true,
+			"angular": true,
+			"vuejs": true,
+			"php": true,
+			"c": true
+		},
+		"id": 7
+	}
+}
 }
 ```
 
 ```
-POST /register FORMATO DA RESPOSTA - STATUS 200
+
+Para Recrutador:
+
 ```
 
 ```
 {
-	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhYmxvNEBtYWlsLmNvbSIsImlhdCI6MTY2NzMxMzI4NSwiZXhwIjoxNjY3MzE2ODg1LCJzdWIiOiI0In0.rjj_nsCafkdGQrbN1Qq8E_U_cpsc6aOEeSkAid9Pm-k",
+	{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhYmxvNTZAbWFpbC5jb20iLCJpYXQiOjE2Njc0ODIxNDQsImV4cCI6MTY2NzQ4NTc0NCwic3ViIjoiNyJ9.oQQ5Em8Z-0DptiXBl0A3kjcxlk7bpH6Ew_vu5jedYEY",
 	"user": {
-		"email": "pablo4@mail.com",
+		"email": "pablo56@mail.com",
 		"name": "Pablo",
-		"escolaridade": "Ensino Superior",
-		"Vaga": "Front-end",
-		"id": 4
+		"isRecruiter": true,
 	}
+}
 }
 ```
 
@@ -110,3 +184,33 @@ GET /users/id FORMATO DA RESPOSTA - STATUS 200
 	"id": 2
 }
 ```
+# <h1 align="center">Editar usuário</h1>
+
+
+```
+PATCH /users/id FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+	"email": "pablo2@mail.com",
+	"password": "$2a$10$DTyyNXOCyhYCrzhwT6FkYeQNRGQqIlC308viCKbj7hACFu/Yf//0y",
+	"name": "Pablo",
+	"age": "37",
+	"id": 2
+	"city": "Rio de Janeiro"
+}
+```
+```
+PATCH /users/id FORMATO DA RESPOSTA - STATUS 200
+```
+
+```
+{
+	"email": "pablo2@mail.com",
+	"password": "$2a$10$DTyyNXOCyhYCrzhwT6FkYeQNRGQqIlC308viCKbj7hACFu/Yf//0y",
+	"name": "Pablo",
+	"age": "37",
+	"id": 2
+	"city": "Rio de Janeiro"
+}

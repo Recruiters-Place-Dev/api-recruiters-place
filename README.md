@@ -223,3 +223,34 @@ PATCH /users/id FORMATO DA RESPOSTA - STATUS 200
 	"city": "Rio de Janeiro"
 }
 ```
+
+# <h1 align="center">Postar comentário</h1>
+
+```
+POST /coments FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+	"idFrom": "8",
+	"idTo": "5",
+	"from": "Pablin",
+	"to": "Pablo",
+	"coments": "olá vamos codar ?"
+}
+```
+
+```
+POST /coments FORMATO DA RESPOSTA - STATUS 200
+```
+
+```
+{
+	"idFrom": "8",
+	"idTo": "5",
+	"from": "Pablin",
+	"to": "Pablo",
+	"coments": "olá vamos codar ?",
+	"id": 3
+}
+```

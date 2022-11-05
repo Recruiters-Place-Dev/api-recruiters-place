@@ -45,7 +45,7 @@
       "password": "$2a$10$1fqdCAjqFyfWlspKEnMgRehDiMJ//16dcKC8tWUUIW7mH9.MHTLoW",
       "name": "Pablin",
       "isRecruiter": true,
-      "city": "Rio de Janeiro",
+      "city": "São Paulo",
       "escolaridade": "Superior",
       "cargo": "Front-end",
       "isWork": true,
@@ -64,7 +64,7 @@
         "c": true
       },
       "id": 8,
-      "empresa": "Kenzie"
+      "empresa": "Kenzie Academy"
     },
     {
       "email": "lucas@mail.com",
@@ -160,6 +160,81 @@
       "from": "Pablin",
       "to": "Pablo",
       "coments": "olá vamos codar ?",
+      "id": 3
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "coment": "sdasdasdasdas",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 4
+    },
+    {
+      "from": "Pablin",
+      "to": "matheus",
+      "coment": "sdasdasdad fdfsdfsd",
+      "idTo": "11",
+      "idFrom": "8",
+      "id": 5
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "coment": "Olá ! Vamos codar ?",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 6
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "coment": "Olá !",
+      "idTo": "6",
+      "idFrom": "8",
+      "id": 7
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "coment": "Teste",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 8
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "coment": "sdasdad",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 9
+    }
+  ],
+  "chat": [
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "chat": "Gostei de você, vamos de call ?",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 1
+    },
+    {
+      "from": "Pablin",
+      "to": "Pablo",
+      "chat": "dasdasdas",
+      "idTo": "5",
+      "idFrom": "8",
+      "id": 2
+    },
+    {
+      "from": "Pablin",
+      "to": "matheus",
+      "chat": "Hello man ! ",
+      "idTo": "11",
+      "idFrom": "8",
+      "isRead": false,
       "id": 3
     }
   ]

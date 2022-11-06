@@ -1,6 +1,6 @@
 # api-recruiters-place
 
-## Rotas que não precisam de autenticação
+# <h1 align="center">Rotas que não precisam de autenticação</h1>
 
 # <h1 align="center">Login</h1>
 
@@ -141,7 +141,7 @@ Para Recrutador:
 }
 ```
 
-## Rotas que precisam de autenticação
+# <h1 align="center">Rotas que precisam de autenticação</h1>
 
 ```
  Authorization
@@ -273,7 +273,7 @@ POST /chat FORMATO DA REQUISIÇÃO - STATUS 200
 ```
 
 ```
-POST /coments FORMATO DA RESPOSTA - STATUS 200
+POST /chat FORMATO DA RESPOSTA - STATUS 200
 ```
 
 ```

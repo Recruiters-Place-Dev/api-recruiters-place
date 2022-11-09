@@ -35,25 +35,11 @@
       "isRecruiter": true,
       "city": "Rio de janeiro, RJ",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/pablo-araujo-441402167/",
       "github": "https://github.com/pablorzenha",
       "portfolio": "https://portfolio-react-psi-six.vercel.app",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106610193?s=96&v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
       "id": 2
     },
     {
@@ -63,25 +49,13 @@
       "isRecruiter": true,
       "city": "Araçatuba, SP",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
+
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/igorttdp/",
       "github": "https://github.com/Igorttdp",
       "portfolio": "",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/93871899?v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
+
       "id": 3
     },
     {
@@ -119,25 +93,13 @@
       "isRecruiter": true,
       "city": "Miguel calmon, BA",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
+
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/matheus-miranda15/",
       "github": "https://github.com/MatheusMoura-M",
       "portfolio": "",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106744585?v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
+
       "id": 5
     },
     {
@@ -203,25 +165,13 @@
       "isRecruiter": true,
       "city": "Rio de janeiro",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
+
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/mhmarques/",
       "github": "https://github.com/MHAMarques",
       "portfolio": "",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/96503481?v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
+
       "id": 8
     },
     {
@@ -231,25 +181,13 @@
       "isRecruiter": true,
       "city": "Itajaí, SC",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
+
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/lucas-i-c-schmidt/",
       "github": "https://github.com/awesomelucas",
       "portfolio": "",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/81023720?v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
+
       "id": 9
     },
     {
@@ -315,25 +253,13 @@
       "isRecruiter": true,
       "city": "Rio de janeiro",
       "escolaridade": "Superior",
-      "cargo": "Front-end",
+
       "isWork": true,
       "linkedin": "https://www.linkedin.com/in/leonardo-martins-antunes/",
       "github": "https://github.com/leolopes2001",
       "portfolio": "",
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/86491405?v=4",
-      "tech": {
-        "html": true,
-        "css": true,
-        "js": true,
-        "react": true,
-        "ts": true,
-        "angular": false,
-        "vuejs": false,
-        "php": false,
-        "c": false,
-        "node": true,
-        "sass": false
-      },
+
       "id": 12
     }
   ],

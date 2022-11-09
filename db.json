@@ -15,14 +15,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106610193?s=96&v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 1
     },
@@ -41,14 +43,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106610193?s=96&v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 2
     },
@@ -67,14 +71,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/93871899?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 3
     },
@@ -93,14 +99,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/93871899?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 4
     },
@@ -119,14 +127,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106744585?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 5
     },
@@ -145,14 +155,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/106744585?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 6
     },
@@ -171,14 +183,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/96503481?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 7
     },
@@ -197,14 +211,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/96503481?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 8
     },
@@ -223,14 +239,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/81023720?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 9
     },
@@ -249,14 +267,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/81023720?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 10
     },
@@ -275,14 +295,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/86491405?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 11
     },
@@ -301,14 +323,16 @@
       "fotoDoPerfil": "https://avatars.githubusercontent.com/u/86491405?v=4",
       "tech": {
         "html": true,
-        "css": false,
-        "js": false,
-        "react": false,
-        "ts": false,
+        "css": true,
+        "js": true,
+        "react": true,
+        "ts": true,
         "angular": false,
         "vuejs": true,
         "php": false,
-        "c": false
+        "c": false,
+        "node": true,
+        "sass": false
       },
       "id": 12
     }

@@ -255,9 +255,9 @@
     {
       "email": "lucasdev@mail.com",
       "password": "$2a$10$NurXpvZTsRF2T7AkETMdZOGk0EgdBymxZe.HI1R2vqH6oSqOCzvBm",
-      "name": "Itajaí, SC",
+      "name": "Lucas",
       "isRecruiter": false,
-      "city": "Rio de janeiro",
+      "city": "Itajaí, SC",
       "escolaridade": "Superior",
       "cargo": "Front-end",
       "isWork": true,

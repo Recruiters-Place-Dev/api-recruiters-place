@@ -1,6 +1,6 @@
 # api-recruiters-place
 
-## Rotas que não precisam de autenticação
+# <h1 align="center">Rotas que não precisam de autenticação</h1>
 
 # <h1 align="center">Login</h1>
 
@@ -141,7 +141,7 @@ Para Recrutador:
 }
 ```
 
-## Rotas que precisam de autenticação
+# <h1 align="center">Rotas que precisam de autenticação</h1>
 
 ```
  Authorization
@@ -254,3 +254,38 @@ POST /coments FORMATO DA RESPOSTA - STATUS 200
 	"id": 3
 }
 ```
+
+# <h1 align="center">Enviar mensagem</h1>
+
+```
+POST /chat FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+	"chat":"Ok, vamos marcar bonitão.",
+ 	"from": "Pablo", 
+	"idFrom": "8",
+	"isRead": false,
+	"idTo": "12",
+	"to": "Pablin"
+}
+```
+
+```
+POST /chat FORMATO DA RESPOSTA - STATUS 200
+```
+
+```
+{{
+	"chat": "Ok, vamos marcar bonitão.",
+	"from": "Pablo",
+	"idFrom": "8",
+	"isRead": false,
+	"idTo": "12",
+	"to": "Pablin",
+	"id": 13
+}
+}
+```
+

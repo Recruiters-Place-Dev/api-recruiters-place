@@ -135,7 +135,7 @@
       "password": "$2a$10$0sBBLVGBJRb3DSNvX4Kwp.5pbPKzyaTk0v5vIRFjLT1nUqNSiA8S6",
       "name": "Marcelo",
       "isRecruiter": false,
-      "city": "Rio de janeiro",
+      "city": "Belo Horizonte, MG",
       "escolaridade": "Superior",
       "cargo": "Front-end",
       "isWork": true,
@@ -163,7 +163,7 @@
       "password": "$2a$10$DYAbhUZx54pG4vDyS1JmQukQrGm/mAaPWMWyYJkez3X2Y5ByhCayC",
       "name": "Marcelo",
       "isRecruiter": true,
-      "city": "Rio de janeiro",
+      "city": "Belo Horizonte, MG",
       "escolaridade": "Superior",
 
       "isWork": true,

@@ -1,40 +1,39 @@
 # api-recruiters-place
 
+# <h1 align="center">Rodar API Localmente</h1>
+
+<p>Abra o terminal:</p>
+
+```
+npm run server
+
+# ou
+
+node server.js
+```
+
+<h2>Funcionando</h2>
+
+```
+$ npm run server
+
+> server
+> node server.js
+
+Server is running on port: 3001
+
+# ou
+
+$ node server.js
+Server is running on port: 3001
+```
+
 # <h1 align="center">Rotas que não precisam de autenticação</h1>
-
-# <h1 align="center">Login</h1>
-
-```
-POST /login FORMATO DA REQUISIÇÃO - STATUS 200
-```
-
-```
-{
-	"email": "pablo@mail.com",
-	"password": "123456"
-}
-```
-
-```
-POST /login FORMATO DA RESPOSTA - STATUS 200
-```
-
-```
- {
-	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhYmxvQG1haWwuY29tIiwiaWF0IjoxNjY3MzE0ODAyLCJleHAiOjE2NjczMTg0MDIsInN1YiI6IjEifQ.qq8dCsGE0lq-Wh-5ZSfgyKi7yPOjL1KhroZZkwF_WQA",
-	"user": {
-		"email": "pablo@mail.com",
-		"name": "Pablo",
-		"age": "31",
-		"id": 1
-	}
-}
-```
 
 # <h1 align="center">Register</h1>
 
 ```
-POST /login FORMATO DA REQUISIÇÃO - STATUS 200
+POST /register FORMATO DA REQUISIÇÃO - STATUS 200
 ```
 
 ```
@@ -136,8 +135,38 @@ Para Recrutador:
 		"email": "pablo56@mail.com",
 		"name": "Pablo",
 		"isRecruiter": true,
+		}
 	}
 }
+```
+
+# <h1 align="center">Login</h1>
+
+```
+POST /login FORMATO DA REQUISIÇÃO - STATUS 200
+```
+
+```
+{
+	"email": "pablo@mail.com",
+	"password": "123456"
+}
+```
+
+```
+POST /login FORMATO DA RESPOSTA - STATUS 200
+```
+
+```
+ {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhYmxvQG1haWwuY29tIiwiaWF0IjoxNjY3MzE0ODAyLCJleHAiOjE2NjczMTg0MDIsInN1YiI6IjEifQ.qq8dCsGE0lq-Wh-5ZSfgyKi7yPOjL1KhroZZkwF_WQA",
+	"user": {
+		"email": "pablo@mail.com",
+		"name": "Pablo",
+		"age": "31",
+		"id": 1
+		...
+	}
 }
 ```
 
@@ -189,6 +218,7 @@ GET /users/id FORMATO DA RESPOSTA - STATUS 200
 	"name": "Pablo",
 	"age": "31",
 	"id": 2
+	...
 }
 ```
 
@@ -264,7 +294,7 @@ POST /chat FORMATO DA REQUISIÇÃO - STATUS 200
 ```
 {
 	"chat":"Ok, vamos marcar bonitão.",
- 	"from": "Pablo", 
+ 	"from": "Pablo",
 	"idFrom": "8",
 	"isRead": false,
 	"idTo": "12",
@@ -277,7 +307,7 @@ POST /chat FORMATO DA RESPOSTA - STATUS 200
 ```
 
 ```
-{{
+{
 	"chat": "Ok, vamos marcar bonitão.",
 	"from": "Pablo",
 	"idFrom": "8",
@@ -286,6 +316,4 @@ POST /chat FORMATO DA RESPOSTA - STATUS 200
 	"to": "Pablin",
 	"id": 13
 }
-}
 ```
-
